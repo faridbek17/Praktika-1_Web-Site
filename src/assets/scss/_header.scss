@@ -1,0 +1,45 @@
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../../../public/images/header-bc.jpg);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+
+    &_row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    &_logotype{
+        color: #fff;
+        font-weight: 400;
+        cursor: pointer;
+
+        &:hover{
+            border-bottom: 2px solid #d3d3d3;
+        }
+    }
+
+    &_link{
+        color: #fff;
+        margin-left: 48px;
+        font-size: 20px;
+        
+
+        &:hover{
+            border-bottom: 2px solid #d3d3d3;
+        }
+    }
+
+    &_title{
+        text-align: center;
+        font-size: 34px;
+        color: #fff;
+        margin-top: 380px;
+    }
+}
+

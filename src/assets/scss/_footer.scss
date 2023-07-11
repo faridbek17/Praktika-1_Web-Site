@@ -1,0 +1,43 @@
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 300px;
+    border-top: 1px solid #12122c;
+
+    display: flex;
+    justify-content: space-between;
+
+    &_title{
+        font-size: 82px;
+        color: #12122c;
+        padding-top: 60px;
+    }
+    
+    &_content{
+        
+        &-title{
+            color: #12122c;
+            font-size: 22px;
+            font-weight: 100;
+            padding-top: 60px;
+            padding-bottom: 40px;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover{
+                color: #ca5100;
+            }
+        }
+        
+        &-p{
+            color: #464646;
+            font-size: 14px;
+            line-height: 24px;
+            cursor: pointer;
+            transition: 0.3s;
+            
+            &:hover{
+                color: #ca5100;
+            }
+        }
+    }
+}
